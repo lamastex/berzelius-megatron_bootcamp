@@ -54,3 +54,7 @@ $ cd berzelius-megatron_bootcamp
 $ git clone git@github.com:lamastex/gpubootcamp.git
 $ git clone git@github.com:lamastex/Megatron-LM.git
 ```
+## 0.4. Building images needed
+
+Singularity containers need to be built for deploymnet in berzelius. [Quick Start](https://sylabs.io/guides/3.0/user-guide/quick_start.html) on a machine where you have root access. Then pull the sigularity containers as needed.
+
