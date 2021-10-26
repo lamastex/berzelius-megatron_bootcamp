@@ -61,4 +61,5 @@ Singularity containers need to be built for deploymnet in berzelius.
 - [Quick Start](https://sylabs.io/guides/3.0/user-guide/quick_start.html) on a machine where you have root access. 
   - See [linux commands](commands/singularityOnLinux.md) for installing singularity on a Linux machine with root access.
 - Then pull the sigularity containers as needed.
+- TODO: These `.sif` images need to built from their `.def` definitions as [explained here](https://chowdera.com/2021/06/20210620163226072P.html)
 
