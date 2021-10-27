@@ -5,6 +5,8 @@ This repository is mainly an archive for my own personal self-study and deeper d
 
 - See [https://gpuhackathons.org/event/enccs-nsc-megatron-bootcamp](https://gpuhackathons.org/event/enccs-nsc-megatron-bootcamp) for details of the event.
 
+- Please Note: *This is released by NVIDIA Corporation under the Creative Commons Attribution 4.0 International (CC BY 4.0)* 
+
 # 0. Setup
 
 ## 0.1. Access to Berzelius
