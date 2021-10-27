@@ -196,7 +196,7 @@ Go through the following labs in order:
 *   12:40 PM - 01:10 PM: Challenge overview
 *   01:10 PM - 01:30 PM: Discussion & What’s up next day
 
-## 1.3 Labs for Day 2
+## 2.1 Labs for Day 2
 
 See [slides](slides/) for the lectures.
 
@@ -224,6 +224,18 @@ Go through the following labs in order:
 *   12:50 PM - 01:20 PM: Challenge – Go BIG or go home
 *   01:20 PM - 01:40 PM: Ask the Experts with NVIDIA data scientists on what's next for NLP
 *   01:40 PM - 02:00 PM: Discussion & Final remarks
+
+## 3.1 Labs for Day 3
+
+See [slides](slides/) for the lectures.
+
+Go through the following labs in order:
+
+- `gpubootcamp/ai/Megatron/English/Python/Start_Here.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Megatron-LM/tools/openwebtext/Lab1-1_Website_scraping.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Megatron-LM/tools/openwebtext/Lab2-1_acquiring_data.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Megatron-LM/tools/openwebtext/Lab2-2_SentenceBoundary_and_Deduplicate.ipynb`
+- `...`
 
 # CC
 
