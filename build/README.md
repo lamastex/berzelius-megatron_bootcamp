@@ -21,3 +21,13 @@ For this bootcamp, there is no definition file. Just build from NGC.
 singularity build pytorch_21.03.sif docker://nvcr.io/nvidia/pytorch:21.03-py3
 ```
 
+TODO: **The .sif file sizes are different just from time of builds**
+
+Pointers to check this:
+
+> also, depending on which CUDA lib version you have you might want to check against 
+> https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/index.html
+
+> depending on the environment , you might need to double check what CUDA version is there 
+> https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/rel_21-03.html#rel_21-03
+
