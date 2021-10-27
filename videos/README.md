@@ -1,5 +1,20 @@
-Links to videos can go here:
+# Links to videos
 
+Watch Creative Commons - Attributiuon Licensed [enccs-nsc-megatron-bootcamp playlist](https://youtube.com/playlist?list=PL_I1mOIPmfpb4ZIzjq1osaGUlS6Sl5ZhG)
+
+> digital event: https://gpuhackathons.org/event/enccs-nsc-megatron-bootcamp
+> fielded by: https://github.com/lamastex/berzelius-megatron_bootcamp
+
+
+## Day 01
+
+- [https://youtu.be/ewBzOdVUwy0](https://youtu.be/ewBzOdVUwy0)
+- [https://youtu.be/WQfMur_HBc4](https://youtu.be/WQfMur_HBc4)
+
+## Day 02
+
+- [https://youtu.be/9HLDvtdxKcU](https://youtu.be/9HLDvtdxKcU)
+- [https://youtu.be/QgxjQBHMtN0](https://youtu.be/QgxjQBHMtN0)
 
 
 # CC
