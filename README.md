@@ -84,6 +84,9 @@ $ singularity pull library://lamastex/default/pytorch_21.07.sif:berzelius-202110
 
 # 1. Agenda for Day 1
 
+See [slides](slides/) for the lectures.
+Watch [videos](videos/) for the diggital interactions.
+
 # 1. Agenda for  Day 1: October 25, 2021 (9:00 AM to 12:00 PM CEST)
 
 *   09:00 AM: Welcome
@@ -171,11 +174,8 @@ Your thinLinc Client should have the terminal and jupyter lab in firefox running
 
 Now you are ready to work on the Labs!
 
-## 1.2 Multi-nodes Megatron training
 
-See [slides](slides/) for the lectures.
-
-## 1.3 Labs for Day 1
+## 1.2 Labs for Day 1
 
 Go through the following labs in order:
 
@@ -183,6 +183,9 @@ Go through the following labs in order:
 - I guess watch the video and figure out which notebooks were meant to be done in what order?
 
 # 2. Agenda for Day 2: October 26, 2021 (9:00 AM to 1:30 PM CEST)
+
+See [slides](slides/) for the lectures.
+Watch [videos](videos/) for the diggital interactions.
 
 *   09:00 AM - 09:15 AM: Environment prep
 *   09:15 AM - 09:45 AM: Introduction to Megatron
@@ -198,7 +201,6 @@ Go through the following labs in order:
 
 ## 2.1 Labs for Day 2
 
-See [slides](slides/) for the lectures.
 
 Go through the following labs in order:
 
@@ -211,6 +213,9 @@ Go through the following labs in order:
 - `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Lab1-6_Observe_GPT_runs_vs_performance.ipynb`
 
 # 3. Agenda for Day 3: October 27, 2021 (9:00 AM to 2:00 PM CEST)
+
+See [slides](slides/) for the lectures.
+Watch [videos](videos/) for the diggital interactions.
 
 *   09:00 AM - 09:15 AM: Recap and Overview of Day 3
 *   09:15 AM - 09:30 AM: About acquiring your own
@@ -226,8 +231,6 @@ Go through the following labs in order:
 *   01:40 PM - 02:00 PM: Discussion & Final remarks
 
 ## 3.1 Labs for Day 3
-
-See [slides](slides/) for the lectures.
 
 Go through the following labs in order:
 
