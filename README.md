@@ -101,9 +101,39 @@ Create some directories we will need first:
 $ pwd
 /proj/megatron_bootcamp/users/x_raasa/berzelius-megatron_bootcamp
 
-mkdir ./output/sv_gpt3_ckpt
-mkdir ./profiles
+$ mkdir ./output/sv_gpt3_ckpt
+$ mkdir ./profiles
 ```
+
+Now get cluster resources in an interactive BASH shell, removing or adapting `--reservation=megatron-day2` as needed:
+
+```
+srun --reservation=megatron-day2 --gres=gpu:2 --pty bash -i
+```
+
+Specifically, you would ssh into berzelius1 and then srun to get resources in another node, say 12 in my case below:
+
+```
+$ ssh -X x_raasa@berzelius1.nsc.liu.se
+$ cd /proj/megatron_bootcamp/users/x_raasa/berzelius-megatron_bootcamp
+[x_raasa@berzelius001 berzelius-megatron_bootcamp]$ srun  --gres=gpu:2 --pty bash -i
+[x_raasa@node012 berzelius-megatron_bootcamp]$
+```
+
+Note that this resource is time-limted, so you may have to `srun` again from berzelius1.
+
+
+To run jupyter notebook you first create and scp a `.cert` file and follow [these steps](guides/AccessingJupyterNotebooks.pdf).
+
+Then you mostly need just these:
+
+```
+srun --reservation=megatron-day2 --gres=gpu:2 --pty bash -i
+export SINGULARITY_BINDPATH="/proj/megatron_bootcamp/users/$(id -un)"
+singularity shell --nv pytorch_21.03.sif
+jupyter-lab --certfile=~/mycert.pem --ip=$(hostname) --port=9000 # use your allocated port
+```
+
 # 2. Agenda for Day 2: October 26, 2021 (9:00 AM to 1:30 PM CEST)
 
 *   09:00 AM - 09:15 AM: Environment prep
