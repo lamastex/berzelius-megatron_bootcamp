@@ -16,6 +16,9 @@ Watch Creative Commons - Attributiuon Licensed [enccs-nsc-megatron-bootcamp play
 - [https://youtu.be/9HLDvtdxKcU](https://youtu.be/9HLDvtdxKcU)
 - [https://youtu.be/QgxjQBHMtN0](https://youtu.be/QgxjQBHMtN0)
 
+## Day 03
+
+- [https://youtu.be/2yjZwgWwVis](https://youtu.be/2yjZwgWwVis)
 
 # CC
 
