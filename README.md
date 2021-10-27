@@ -1,11 +1,13 @@
 # berzelius-megatron_bootcamp
 This is a public repository of the megatron bootcamp *Digital Event* for GPUs on [berzelius](https://www.nsc.liu.se/systems/berzelius/), the most powerful supercomputer for AI in Sweden today (2021-10-27).
 
-This repository is mainly an archive for my own personal self-study and deeper dives by filling some gaps in my own knowledge. Anyone is welcome to use this to speed-up their own self-study.
+This repository is mainly an archive for my own personal self-study and deeper dives by filling some gaps in my own knowledge. 
+Anyone is welcome to use this to speed-up their own self-study. 
 
 - See [https://gpuhackathons.org/event/enccs-nsc-megatron-bootcamp](https://gpuhackathons.org/event/enccs-nsc-megatron-bootcamp) for details of the event.
-
-- Please Note: *This is released by NVIDIA Corporation under the Creative Commons Attribution 4.0 International (CC BY 4.0)* 
+- Please Note: 
+  - *This is released by NVIDIA Corporation under the Creative Commons Attribution 4.0 International (CC BY 4.0)* 
+  - It uses forks that are *released by OpenACC-Standard.org, in collaboration with NVIDIA Corporation, under the Creative Commons Attribution 4.0 International (CC BY 4.0).*
 
 # 0. Setup
 
