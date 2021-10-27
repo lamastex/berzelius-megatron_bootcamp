@@ -232,10 +232,11 @@ See [slides](slides/) for the lectures.
 Go through the following labs in order:
 
 - `gpubootcamp/ai/Megatron/English/Python/Start_Here.ipynb`
-- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Megatron-LM/tools/openwebtext/Lab1-1_Website_scraping.ipynb`
 - `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Megatron-LM/tools/openwebtext/Lab2-1_acquiring_data.ipynb`
 - `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Megatron-LM/tools/openwebtext/Lab2-2_SentenceBoundary_and_Deduplicate.ipynb`
-- `...`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Lab2-3_train_own_GPT2BPETokenizer.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Lab2-4_customize_process2mmap.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Lab2-5_run_Megatron_with_varying_config.ipynb`
 
 # CC
 
