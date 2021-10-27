@@ -123,14 +123,15 @@ $ cd /proj/megatron_bootcamp/users/x_raasa/berzelius-megatron_bootcamp
 Note that this resource is time-limted, so you may have to `srun` again from berzelius1.
 
 
-To run jupyter notebook you first create and scp a `.cert` file and follow [these steps](guides/AccessingJupyterNotebooks.pdf).
+To run jupyter notebook you first create and scp a `.cert` file and follow [these steps](guides/AccessingJupyterNotebooks.pdf) mostly.
 
-Then you mostly need just these:
+Then you mostly need just these commands [as shown here](images/jupyterLabLaunchViaThinlincTerminalInberzeliusSrunGresInteractiveBASHIntoSingularity.png):
 
 ```
-srun --reservation=megatron-day2 --gres=gpu:2 --pty bash -i
+srun --gres=gpu:2 --pty bash -i
 export SINGULARITY_BINDPATH="/proj/megatron_bootcamp/users/$(id -un)"
-singularity shell --nv pytorch_21.03.sif
+# singularity shell --nv pytorch_21.03.sif # use this if you are using .sif from extracted assets.tar
+singularity shell --nv pytorch_21.03.sif_berzelius-20211027.sif
 jupyter-lab --certfile=~/mycert.pem --ip=$(hostname) --port=9000 # use your allocated port
 ```
 
