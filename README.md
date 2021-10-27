@@ -163,6 +163,19 @@ file:///home/x_raasa/.local/share/jupyter/runtime/nbserver-1904518-open.html
 
 Your thinLinc Client should have the terminal and jupyter lab in firefox running like [this](images/jupyterLabRunning.png).
 
+Now you are ready to work on the Labs!
+
+## 1.2 Multi-nodes Megatron training
+
+See [slides](slides/) for the lectures.
+
+## 1.3 Labs for Day 1
+
+Go through the following labs in order:
+
+- `gpubootcamp/ai/Megatron/English/Python/Start_Here.ipynb` ?? 
+- I guess watch the video and figure out which notebooks were meant to be done in what order?
+
 # 2. Agenda for Day 2: October 26, 2021 (9:00 AM to 1:30 PM CEST)
 
 *   09:00 AM - 09:15 AM: Environment prep
@@ -176,6 +189,20 @@ Your thinLinc Client should have the terminal and jupyter lab in firefox running
 *   12:10 PM - 12:40 PM: Tutorial part 4 – GPT config vs GPUs performance
 *   12:40 PM - 01:10 PM: Challenge overview
 *   01:10 PM - 01:30 PM: Discussion & What’s up next day
+
+## 1.3 Labs for Day 2
+
+See [slides](slides/) for the lectures.
+
+Go through the following labs in order:
+
+- `gpubootcamp/ai/Megatron/English/Python/Start_Here.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Megatron-LM/tools/openwebtext/Lab1-1_Website_scraping.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Lab1-2_EstimateComputeDaysNeeded.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Lab1-3_MegatronFundementals.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Lab1-4_GPT_vocab_merge_files.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Lab1-5_jsonfy_and_process2mmap.ipynb`
+- `gpubootcamp/ai/Megatron/English/Python/jupyter_notebook/Lab1-6_Observe_GPT_runs_vs_performance.ipynb`
 
 # 3. Agenda for Day 3: October 27, 2021 (9:00 AM to 2:00 PM CEST)
 
