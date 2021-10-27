@@ -1,5 +1,9 @@
 # berzelius-megatron_bootcamp
-This is a public repository of the megatron bootcamp for GPUs on berzelius supercomputer for AI in Sweden
+This is a public repository of the megatron bootcamp *Digital Event* for GPUs on [berzelius](https://www.nsc.liu.se/systems/berzelius/), the most powerful supercomputer for AI in Sweden today (2021-10-27).
+
+This repository is mainly an archive for my own personal self-study and deeper dives by filling some gaps in my own knowledge. Anyone is welcome to use this to speed-up their own self-study.
+
+- See [https://gpuhackathons.org/event/enccs-nsc-megatron-bootcamp](https://gpuhackathons.org/event/enccs-nsc-megatron-bootcamp) for details of the event.
 
 # 0. Setup
 
@@ -71,4 +75,61 @@ $ pwd
 $ singularity pull --arch amd64 library://lamastex/default/pytorch_21.03.sif:berzelius-20211027
 $ singularity pull library://lamastex/default/pytorch_21.07.sif:berzelius-20211027
 ```
+
+# 1. Agenda for Day 1
+
+# 1. Agenda for  Day 1: October 25, 2021 (9:00 AM to 12:00 PM CEST)
+
+*   09:00 AM: Welcome
+*   09:00 AM - 09:15 AM: Connecting to a cluster
+*   09:15 AM - 09:30 AM: Bootcamp Overview
+*   09:30 AM - 09:50 AM: Quick start – docker | singularity | slurm
+*   09:50 AM - 10:15 AM: Multi-nodes Megatron training
+*   10:15 AM - 10:30 AM: Break
+*   10:30 AM - 10:45 AM: Team-Up time
+*   10:45 AM - 11:30 AM: Challenge overview
+*   11:00 AM - 12:00 PM: Discussion & What’s up next day
+
+## 1.1 Cluster, Overview, Quick start – docker | singularity | slurm
+
+- Read [https://www.nsc.liu.se/support/systems/berzelius-getting-started/](https://www.nsc.liu.se/support/systems/berzelius-getting-started/) carefully and go through the Quick start guide in it.
+- The above activity should take at least 2 hours if you have already gone through setting up above.
+
+Create some directories we will need first:
+
+```
+$ pwd
+/proj/megatron_bootcamp/users/x_raasa/berzelius-megatron_bootcamp
+
+mkdir ./output/sv_gpt3_ckpt
+mkdir ./profiles
+```
+# 2. Agenda for Day 2: October 26, 2021 (9:00 AM to 1:30 PM CEST)
+
+*   09:00 AM - 09:15 AM: Environment prep
+*   09:15 AM - 09:45 AM: Introduction to Megatron
+*   09:45 AM - 10:15 AM: Tutorial part 1 – Pre-requisite
+*   10:15 AM - 10:45 AM: Tutorial part 2 – Megatron’s core MPU
+*   10:45 AM - 11:00 AM: Break
+*   11:00 AM - 11:40 AM: Tutorial part 3 – data preprocessing
+*   11:40 AM - 12:00 PM: Intro to profiling
+*   12:00 PM - 12:10 PM: Ask the Experts
+*   12:10 PM - 12:40 PM: Tutorial part 4 – GPT config vs GPUs performance
+*   12:40 PM - 01:10 PM: Challenge overview
+*   01:10 PM - 01:30 PM: Discussion & What’s up next day
+
+# 3. Agenda for Day 3: October 27, 2021 (9:00 AM to 2:00 PM CEST)
+
+*   09:00 AM - 09:15 AM: Recap and Overview of Day 3
+*   09:15 AM - 09:30 AM: About acquiring your own
+*   09:30 AM - 10:10 AM: Tutorial part 1 – data cleaning & filter
+*   10:10 AM - 10:30 AM: Mini challenge – approaching ground-truth
+*   10:30 AM - 11:00 AM: Tutorial part 2 – train your own GPT tokenizer
+*   11:00 AM - 11:30 AM: Tutorial part 3 – data preprocessing
+*   11:30 AM - 12:00 PM: Mini challenge – customize preprocessing script
+*   12:00 PM - 12:30 PM: Break
+*   12:30 PM - 12:50 PM: Tutorial part 4 – recap on Megatron model parallelism
+*   12:50 PM - 01:20 PM: Challenge – Go BIG or go home
+*   01:20 PM - 01:40 PM: Ask the Experts with NVIDIA data scientists on what's next for NLP
+*   01:40 PM - 02:00 PM: Discussion & Final remarks
 
