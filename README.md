@@ -123,7 +123,7 @@ $ cd /proj/megatron_bootcamp/users/x_raasa/berzelius-megatron_bootcamp
 Note that this resource is time-limted, so you may have to `srun` again from berzelius1.
 
 
-To run jupyter notebook you first create and scp a `.cert` file and follow [these steps](guides/AccessingJupyterNotebooks.pdf) mostly.
+To run jupyter notebook you first create and scp a `.cert` file and follow [the first few steps here](guides/AccessingJupyterNotebooks.pdf).
 
 Then you mostly need just these commands [as shown here](images/jupyterLabLaunchViaThinlincTerminalInberzeliusSrunGresInteractiveBASHIntoSingularity.png):
 
@@ -134,6 +134,34 @@ export SINGULARITY_BINDPATH="/proj/megatron_bootcamp/users/$(id -un)"
 singularity shell --nv pytorch_21.03.sif_berzelius-20211027.sif
 jupyter-lab --certfile=~/mycert.pem --ip=$(hostname) --port=9000 # use your allocated port
 ```
+
+You will then see the following:
+
+```
+Singularity> jupyter-lab --certfile=~/mycert.pem --ip=$(hostname) --port=9000
+[I 03:15:09.654 LabApp] jupyter_tensorboard extension loaded.
+[I 03:15:09.667 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.8/site-packages/jupyterlab
+[I 03:15:09.667 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 03:15:09.669 LabApp] [Jupytext Server Extension] NotebookApp.contents_manager_class is (a subclass of) jupytext.TextFileContentsManager already - OK
+[I 03:15:09.669 LabApp] Serving notebooks from local directory: /proj/megatron_bootcamp/users/x_raasa/berzelius-megatron_bootcamp
+[I 03:15:09.669 LabApp] Jupyter Notebook 6.2.0 is running at:
+[I 03:15:09.669 LabApp] http://hostname:8888/?token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+[I 03:15:09.669 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 03:15:09.675 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/x_raasa/.local/share/jupyter/runtime/nbserver-1904518-open.html
+    Or copy and paste this URL:
+        http://hostname:8888/?token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+We can just open the browser in the ThinLinc client (Advanced -> Accept Risk/Continue) and paste the following URL:
+
+```
+file:///home/x_raasa/.local/share/jupyter/runtime/nbserver-1904518-open.html
+```
+
+Your thinLinc Client should have the terminal and jupyter lab in firefox running like [this](images/jupyterLabRunning.png).
 
 # 2. Agenda for Day 2: October 26, 2021 (9:00 AM to 1:30 PM CEST)
 
